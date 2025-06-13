@@ -88,7 +88,7 @@ btn.addEventListener("click", async (evt) => {
   // The `new URL()` constructor and `searchParams.append` were removed here
   // because they are designed for query parameters (`?key=value`) and not for building paths (`/segment/segment`).
   const urlObject = `${BASE_URL}${API_KEY}/latest/${baseCurrency}`; 
-  // Example constructed URL: https://v6.exchangerate-api.com/v6/2db80056d952c87d39d88967/latest/USD
+  // Example constructed URL: https://v6.exchangerate-api.com/v6/YOUR_API_KEY/latest/USD
 
 
   // --- Make the API Call ---
