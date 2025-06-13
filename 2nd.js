@@ -9,7 +9,7 @@ const fromCurr = document.querySelector(".from select");
 const toCurr = document.querySelector(".to select");
 const msg = document.querySelector(".msg"); 
 
-const API_KEY = "2db80056d952c87d39d88967"; 
+const API_KEY = "YOUR_API_KEY"; 
 
 
 // --- Populate Dropdowns and Set Initial Selections ---
